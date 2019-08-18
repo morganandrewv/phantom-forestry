@@ -60,6 +60,8 @@ front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
 build:
+  preview_env:
+  - cloudinary_url=https://res.cloudinary.com/morganandrewv/image/upload
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: node:10
